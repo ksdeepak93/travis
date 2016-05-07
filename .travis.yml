@@ -4,13 +4,13 @@ node_js:
 after_success:
 - echo $TOTO
 - git remote -v
-- git config --global user.email "sameer.tanksale1611@gmail.com"
-- git config --global user.name "sam1611"
+- git config --global user.email "deepak.kowshika@gmail.com"
+- git config --global user.name "deepak.kowshika@gmail.com"
 - git checkout master
 - npm version patch
 - git commit -am "[skip ci] bump version"
 - git log --oneline
-- git remote set-url origin https://github.com/sam1611/Travis.git
+- git remote set-url origin git@github.com:ksdeepak93/travis.git
 - git push origin master
 
 script:
