@@ -1,1 +1,4 @@
-window.alert("Deepak Suryaprakash Kowshika")
+function deep ()
+    {
+        alert("Deepak S Kowshika")
+    }
